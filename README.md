@@ -4,7 +4,7 @@
  * Find or set ip address of each camera on the network
  * Adjust 'csv_header' and 'ip_list' to match the number and addresses of cameras
  * Adjust 'reg' for desired data object in the camera
-	* see *'Convert EthernetIP to Modbus TCP.pdf'*
+	* see [matrix of registers](Convert EthernetIP to Modbus TCP.pdf) published by FLIR
 	
 I have used this script with four cameras and a one second log interval with great success.
 
