@@ -1,4 +1,3 @@
-# FLIR_A310_IR_Camera_Modbus_Logger
 
  A crude Python script to log Modbus TCP data from a single or several [FLIR A310](https://www.flir.com/products/a310/) IR cameras
 
