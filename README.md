@@ -1,6 +1,10 @@
 
+ # What is it
+ 
  Log Temperature Data from [FLIR A310](https://www.flir.com/products/a310/) IR cameras to a CSV file using MODBUS TCP and Python.
  
+ 
+ # How to use it:
  * Get the ip address of each camera on the network
  * In *flir_a310_log_data_via_modbus.py*:
  	* Adjust the 'csv_header' list for the number of cameras
@@ -11,4 +15,5 @@
 	
 I have tested this with four cameras and a one second log interval in an industrial setting with great success.
 
+# Credits
 Many thanks to **sourceperl** for the [pyModbusTCP](https://github.com/sourceperl/pyModbusTCP) Python library.
