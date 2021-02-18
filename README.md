@@ -1,7 +1,7 @@
 
  # What is it:
  
- Log Temperature Data from [FLIR A310](https://www.flir.com/products/a310/) IR cameras to a CSV file using a computer and Python.
+ Log temperature data from [FLIR A310](https://www.flir.com/products/a310/) IR cameras to a CSV file using a computer and Python.
  
  
  # How to use it:
