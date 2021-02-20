@@ -5,7 +5,7 @@
  ![](flow_diagram.png)
  
  # How to use it:
- * Get the ip address of each camera on the network.
+ * Get the IP address of each camera on the network.
  * In `flir_a310_log_data_via_modbus.py`:
  	* Adjust the `csv_header` list for the number of cameras.
  	* Adjust the `ip_list` list to match the number and addresses of cameras.
