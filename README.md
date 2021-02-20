@@ -11,7 +11,7 @@
  	* Adjust the `ip_list` list to match the number and addresses of cameras
  	* Set the `reg` variable for desired data object in the camera
 		* See [matrix of registers](Convert_EthernetIP_to_Modbus_TCP.pdf) published by FLIR
-* Run `flir_a310_log_data_via_modbus.py` on a computer that can connect to the cameras.
+* Run `flir_a310_log_data_via_modbus.py` on a device that can connect to the cameras.
 
 # Results:
 I have tested this with four cameras and a one second log interval in an industrial setting with great success.
