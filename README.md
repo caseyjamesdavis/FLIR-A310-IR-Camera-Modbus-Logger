@@ -5,7 +5,8 @@
  ![](flow_diagram.png)
  
  # How to use it:
- 1. Get the IP address of each camera on the network.
+ 1. Install the [pyModbusTCP](https://github.com/sourceperl/pyModbusTCP) Python library.
+ 1. Get the IP address for each FLIR camera of interest.
  2. In `flir_a310_log_data_via_modbus.py`:
  	* Adjust the `csv_header` list for the number of cameras.
  	* Adjust the `ip_list` list to match the number and addresses of cameras.
